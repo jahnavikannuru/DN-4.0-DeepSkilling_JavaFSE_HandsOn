@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  min-width: 0;
+}
+
+.divider {
+  width: 2px;
+  background-color: green;
+  margin: 0 20px;
+  align-self: stretch;
+}
